@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>AIDAN McCARTY for NBA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale = 1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<style type="text/css">
+        .headstyle{
+                background-color: #0feaba;
+                color:#ffffff;
+                padding: 100px 25px;
+        }
+
+        .bg-grey {
+        background-color: #f6f6f6;
+        }
+
+        .container-fluid {
+        padding: 60px 50px;
+        }
+
+        .logo {
+        font-size: 200px;
+        color: #15A0EB;
+        }
+
+        @media screen and (max-width: 768px) {
+        .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+                }
+        }
+
+        .navbar {
+            margin-bottom: 0;
+            background-color: #000000;
+            z-index: 9999;
+            border: 0;
+            font-size: 12px !important;
+            line-height: 1.42857143 !important;
+            letter-spacing: 4px;
+            border-radius: 0;
+        }
+
+        .navbar li a, .navbar .navbar-brand {
+        color: #fff !important;
+        }
+
+        .navbar-nav li a:hover, .navbar-nav li.active a {
+            color: #A3B8C4 !important;
+            background-color: #373838 !important;
+        }
+
+        .navbar-default .navbar-toggle {
+        border-color: transparent;
+        color: #fff !important;
+        }
+
+
+</style>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+  
+        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  
+  event.preventDefault();
+
+  var hash = this.hash;
+
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    window.location.hash = hash;
+    });
+  });
+})      
+</script>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Dr. Aidan</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">ABOUT ME</a></li>
+                        <li><a href="#mission">MISSION</a></li>
+                        <li><a href="#projects">ACHIEVEMENTS</a></li>
+                        <li><a href="#scouting">SCOUTING REPORT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                      </ul>
+                    </div>
+                  </div>
+        </nav>
+
+        <div class ="headstyle text-center" >
+                <h1>AIDAN McCARTY for NBA</h1>
+                <p>Why you tradin'? Just draft Aidan!</p>
+
+                <form class="form-inline">
+                    <input type="email" class="form-control" size="50" placeholder="Email Address ">
+                <button type="button" class="btn btn-danger">Get in touch!</button>
+                </form>
+        </div>
+
+
+        <div id="about" class="container-fluid">
+                <div class="container-fluid">
+                        <div class="row">
+                        <div class="col-sm-8">
+                                        <h2>About Me</h2>
+                                        <h4>I am the new Kobe!</h4>
+
+                                </div>
+                                <div class="col-sm-4">
+                                        <span class="glyphicon glyphicon-home logo"></span>
+                        </div>
+                </div>
+        </div>
+
+
+        <div id="mission" class="container-fluid">
+                <div class="container-fluid bg-grey">
+                        <div class="row">
+                        <div class="col-sm-4">
+                                <span class="glyphicon glyphicon-globe logo"></span>
+                                </div>
+<div class="col-sm-8">
+                                          <h2>My Mission</h2>
+                                          <h4><strong>MISSION:</strong> 
+
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div id="projects" class="container-fluid">
+                <div class="container-fluid">
+                        <div class="row">
+                                <div class="col-sm-8">
+                                          <h2>Achievements</h2>
+                                          <h4><strong>STAY TUNED!</strong> </h4>
+                                          <table class="table table-hover">
+                                            <thead>
+                                              <tr>
+                                                <th>Games Against</th>
+                                                <th>Points Scored</th>
+                                                <th>Three pointers</th>
+                                                <th></th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <td>Lakers</td>
+                                                <td>43</td>
+                                                <td>7</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Jazz</td>
+                                                <td>52</td>
+                                                <td>12</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Heat</td>
+                                                <td>47</td>
+                                                <td>9</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+
+                                </div>
+                                <div class="col-sm-4">
+                                <span class="glyphicon glyphicon-wrench logo"></span>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div id="contact" class="container-fluid">
+                <div class="container-fluid bg-grey">
+                        <h2 class="text-center">CONTACT</h2>
+                                <div class="row">
+                                <div class="col-sm-5">
+                                        <p>Contact me and I'll get back to you.</p>
+                                        <p><span class="glyphicon glyphicon-map-marker"></span> Stanford, CA</p>
+                                            <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+                                            <p><span class="glyphicon glyphicon-envelope"></span> john.doe@stanford.edu</p>
+                                </div>
+
+                                <div class="col-sm-7">
+                                        <div class="row">
+                                                <div class="col-sm-6 form-group">
+                                                 <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                                </div>
+                                        <div class="col-sm-6 form-group">
+                                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                                        </div>
+</div>
+                                        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                                <div class="row">
+                                        <div class="col-sm-12 form-group">
+                                          <button class="btn btn-default pull-right" type="submit">Send</button>
+                                        </div>
+                                </div>
+                                </div>
+                                </div>
+                </div>
+        </div>
+        <footer class="container-fluid text-center">
+                <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span></a>
+        <p>&copy; 2015 BY Aidan | ALL RIGHTS RESERVED</p>
+        </footer>
+
+</body>
+</html>
